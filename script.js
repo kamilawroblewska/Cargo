@@ -43,3 +43,30 @@ document.getElementById("prevBtn").addEventListener("click", function () {
     currentIndex = (currentIndex - 1 + sections.length) % sections.length; // Loop backward
     updateHeroSection();
 });
+
+const lastScrollY = 0;
+window.addEventListener("scroll", function () {
+    const header = document.getElementById('header');
+    const navbar = document.querySelector(".navbar");
+    const links = document.querySelectorAll(".navbar__links a");
+    const logo = document.querySelector(".logo");
+
+    if (window.scrollY >= 50) {
+        navbar.classList.add("scrolled");
+        links.forEach(link => link.classList.add("scrolled-link"));
+        logo.classList.add("scrolled-logo");
+
+    } else {
+        navbar.classList.remove("scrolled");
+        links.forEach(link => link.classList.remove("scrolled-link"));
+        logo.classList.remove("scrolled-logo");
+
+    }
+
+    if (window.scrollY >= 1) {
+        header.classList.add("scrolled-header");
+    } else if (window.scrollY < 50) {
+        header.classList.remove("scrolled-header");
+    }
+
+});
