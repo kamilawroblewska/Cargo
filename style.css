@@ -111,4 +111,26 @@ header {
     filter: brightness(100%);
     transition: filter 0.3s ease;
 }
+.navbar.scrolled {
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
 
+.scrolled-link {
+    color: #00172D !important;
+}
+
+.scrolled-link:hover {
+    color: #93B832 !important;
+}
+
+.scrolled-logo {
+    filter: brightness(0%);
+}
+
+.logo {
+    width: 102.67px;
+    height: 32.49px;
+    left: 38px;
+}
