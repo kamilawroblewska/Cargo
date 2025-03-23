@@ -134,3 +134,148 @@ header {
     height: 32.49px;
     left: 38px;
 }
+.navbar__links {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    margin: 0;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.search {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    background-color: #00172D;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact__search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact {
+    width: 171px;
+    height: 40px;
+    color: white;
+    background-color: #93B832;
+    border-radius: 25px;
+    font-size: 18px;
+    border: none;
+    margin-right: 40px;
+}
+
+.contact__arrow {
+    margin-left: 48px;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: #E0D410;
+    border-radius: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    font-style: normal;
+    text-align: left;
+
+}
+
+.hero-text {
+    position: absolute;
+    top: 255px;
+    margin-left: 100px;
+}
+
+.special {
+    font-size: 140px;
+    font-weight: bold;
+    margin: 0;
+    font-style: normal;
+
+    width: 805px;
+}
+
+p {
+    top: 37px;
+    font-size: 18px;
+    line-height: 28px;
+    width: 476px;
+}
+
+.hero-text-style {
+    display: flex;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 70px;
+    font-style: normal;
+    color: #ffffff;
+    top: 66px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.hero-text-style,
+.arrow {
+    display: inline-flex;
+    gap: 12px;
+}
+
+
+
+.dropdown .drop-btn {
+    font-size: 18px;
+    color: white;
+    background-color: inherit;
+    margin: 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+.fa {
+    display: flex;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 191px;
+}
+
+.trigger-button {
+    display: inline;
+    height: 8px;
+    width: 50px;
+    background-color: rgba(98, 97, 97, 0.5);
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.trigger-button:hover {
+    background-color: #ffffff;
+}
