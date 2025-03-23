@@ -1,0 +1,55 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+main {
+    margin-top: -89px;
+}
+
+html {
+    font-size: 100%;
+}
+
+header {
+    transition: margin-top 0.2s ease;
+    background-color: #00172D
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 38px;
+    position: relative;
+}
+
+.navigation__info {
+    display: flex;
+    color: #99ccc4;
+    line-height: 1;
+
+}
+
+.navigation__links {
+    display: flex;
+    position: absolute;
+    right: 38px;
+    gap: 36px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__links a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 1;
+}
