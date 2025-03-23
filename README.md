@@ -11,9 +11,8 @@ A **responsive** and **modern** website for Cargo services. This project feature
 - **Smooth Animations & Transitions**
 
 ## 📂 Project Structure
-![screen](assets/screen1.png")
-![screen1](assets/screen2.png")
-![screen2](assets/screen3.png")
+![screen](https://github.com/kamilawroblewska/Cargo/blob/main/assets/screen1.png?raw=true)
+![screen2](https://github.com/kamilawroblewska/Cargo/blob/main/assets/screen3.png?raw=true)
 
 ## 🛠️ Technologies Used
 
