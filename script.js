@@ -70,3 +70,8 @@ window.addEventListener("scroll", function () {
     }
 
 });
+
+const dropdownButton = document.getElementById('dropdown-btn');
+dropdownButton.addEventListener("click", function () {
+    dropdownButton.classList.toggle("active");
+});
