@@ -11,7 +11,9 @@ A **responsive** and **modern** website for Cargo services. This project feature
 - **Smooth Animations & Transitions**
 
 ## 📂 Project Structure
-
+![screen](cargo/assets/screen1.png")
+![screen1](/assets/screen2.png")
+![screen2](/assets/screen3.png")
 
 ## 🛠️ Technologies Used
 
